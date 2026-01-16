@@ -81,7 +81,7 @@ create table if not exists students(student_id int not null auto_increment,stude
     -> PRIMARY KEY (student_id)
     ->  );
 ```
-![alt text](<screenshots\Screenshot 2026-01-05 161548.png>)
+![alt text](<screenshots/Screenshot 2026-01-05 161548.png>)
 
 ##  4️. Database Connector Configuration
 
