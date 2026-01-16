@@ -93,13 +93,13 @@ create table if not exists students(student_id int not null auto_increment,stude
 
 /opt/apache/lib/
 
-![alt text](<screenshots\Screenshot 2026-01-04 195033.png>)
+![alt text](<screenshots/Screenshot 2026-01-04 195033.png>)
 
 Enabled JDBC connectivity between Java application and RDS:
 ```
 cd /opt/conf/context.xml
 ```
-![alt text](<screenshots\Screenshot 2026-01-03 182117.png>)
+![alt text](<screenshots/Screenshot 2026-01-03 182117.png>)
 
 ## 5️. Reverse Proxy Configuration
 
@@ -140,15 +140,15 @@ http://<Backend-Public-IP>:8080  →
 ``` 
 http:         //<Proxy-Instance-Public-IP>/student
 ```
-![alt text](<screenshots\Screenshot (1).png>)
+![alt text](<screenshots/Screenshot (1).png>)
 
 entered the data it will store the data in database
 
-![alt text](<screenshots\Screenshot 2026-01-08 235830.png>)
+![alt text](<screenshots/Screenshot 2026-01-08 235830.png>)
 
 tests the data had stored or no not so chek in database
 
 ```
 select * from students;
 ```
-![alt text](<screenshots\Screenshot 2026-01-09 002329.png>) 
+![alt text](<screenshots/Screenshot 2026-01-09 002329.png>) 
